@@ -23,3 +23,7 @@ See [data-notes.md](data-notes.md) for the Week 2 data sources and notes.
 The datasets were checked, reprojected to EPSG:32631, clipped to the Akure South study area, and saved as analysis-ready data in `data/processed/`.
 
 See [data-notes.md](data-notes.md) for the Week 3 data preparation notes.
+
+Month 2: development environment and early Python
+
+Week 5: set up Python, VS Code and the terminal. hello.py runs.
