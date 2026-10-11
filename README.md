@@ -3,6 +3,7 @@
 Identifying settlements in Akure South near watercourses and low-lying land.
 
 This project investigates:
+
 Which settlements in Akure South Local Government Area sit in low-lying areas near watercourses?
 
 Built over twelve months with GeoDev Lab Africa, Cohort One.
@@ -10,20 +11,25 @@ Built over twelve months with GeoDev Lab Africa, Cohort One.
 ## Project Progress
 
 ### Week 1: Project Definition
+
 The project question was defined around identifying settlements in Akure South LGA that are located in low-lying areas near watercourses. The study area, project objective, and initial approach were established.
 
 See [project-brief.md](project-brief.md) for the full project brief.
 
 ### Week 2: Data Collection
+
 The datasets required for the analysis were identified and sourced, including the Akure South administrative boundary, settlement data, watercourses, and elevation data.
 
 See [data-notes.md](data-notes.md) for the Week 2 data sources and notes.
 
 ### Week 3: Data Preparation
+
 The datasets were checked, reprojected to EPSG:32631, clipped to the Akure South study area, and saved as analysis-ready data in `data/processed/`.
 
 See [data-notes.md](data-notes.md) for the Week 3 data preparation notes.
 
-Month 2: development environment and early Python
+## Month 2: Development Environment and Early Python
 
-Week 5: set up Python, VS Code and the terminal. hello.py runs.
+Week 5: set up Python, VS Code and the terminal. `hello.py` runs.
+
+Week 6: set up the project with uv and added pandas. `check.py` prints the pandas version.
