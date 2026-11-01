@@ -30,10 +30,37 @@ See [data-notes.md](data-notes.md) for the Week 3 data preparation notes.
 
 ## Month 2: Development Environment and Early Python
 
-Week 5: set up Python, VS Code and the terminal. `hello.py` runs.
+### Week 5
+Set up Python, VS Code and the terminal. [hello.py](hello.py) runs.
 
-Week 6: set up the project with uv and added pandas. `check.py` prints the pandas version.
+[Week 5 screenshot](screenshots/week5.png)
 
-Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
+### Week 6
+Set up the project with uv and added pandas.
 
-Week 8: `inspect_data.py` summarises `ward` and `area_km2` in `wards.csv`.
+Files: [pyproject.toml](pyproject.toml), [uv.lock](uv.lock), [check.py](check.py).
+
+[Week 6 screenshot](screenshots/week6.png)
+
+### Week 7
+[analyse.py](analyse.py) reads [wards.csv](wards.csv), converts each area and classifies each ward.
+
+[Week 7 screenshot](screenshots/week7.png)
+
+### Week 8
+[inspect_data.py](inspect_data.py) summarises ward and area_km2 in [wards.csv](wards.csv).
+
+[Week 8 screenshot](screenshots/week8.png)
+
+### Week 9
+[summary.py](summary.py) uses reusable functions to analyse building_count and building_area across 214 Akure South settlement records.
+
+[Week 9 screenshot](screenshots/week9.png)
+
+### Month 2 Reflection
+
+Month 2 helped me understand how Python can be used alongside GIS to examine and analyse data. I learned to organise a Python project, work with libraries such as pandas and GeoPandas, and write scripts that inspect and summarise datasets. 
+
+One important part of this month was applying these skills to my GeoRisk project. Instead of working only with GIS software, I used Python to examine settlement attributes such as building count and building area across 214 records. This gave me an introduction to using Python for data analysis within a GIS project.
+
+I still need to improve my Python programming skills, particularly in data cleaning and analysis, but I now have a better foundation to build on in future projects.
